@@ -28,7 +28,7 @@ export const experience = [
     companyLogo:"",
     date:";"
   }
-],
+]
 export const socialLinks: SocialLinksType = {
   email: "mailto:mahendr123@gmail.com",
   linkedin: "https://www.linkedin.com/in/nandinikamaseli834-eng/",
