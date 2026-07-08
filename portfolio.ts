@@ -21,6 +21,7 @@ export const openSource = {
   githubUserName: "nandinikamaseli834-eng",
 };
 export const contact = {};
+export const experience = [],
 export const socialLinks: SocialLinksType = {
   email: "mailto:mahendr123@gmail.com",
   linkedin: "https://www.linkedin.com/in/nandinikamaseli834-eng/",
