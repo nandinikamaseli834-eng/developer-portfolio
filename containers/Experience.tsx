@@ -1,7 +1,6 @@
 import React from "react";
 import { experience } from "../portfolio";
 import { Container, Row } from "reactstrap";
-import ExperienceCard from "../components/ExperienceCard";
 import Fade from "react-reveal/Fade";
 
 const Experience = () => {
@@ -21,9 +20,7 @@ const Experience = () => {
               </div>
             </div>
             <Row className="row-grid align-items-start">
-              {experience.map((data, i) => {
-                return <ExperienceCard key={i} {...data} />;
-              })}
+              {/*experience section is hidden*/}
             </Row>
           </Container>
         </section>
