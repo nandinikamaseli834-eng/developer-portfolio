@@ -1,11 +1,11 @@
 import dynamic from "next/dynamic";
-const Navigation = dynamic(() => import("../components/Navigation"));
+const Navigation = dynamic(() => import("../components/Navigation"),{ ssr: false });
 const Greetings = dynamic(() => import("../containers/Greetings"),{ ssr: false });
-const Skills = dynamic(() => import("../containers/Skills"));
-const Proficiency = dynamic(() => import("../containers/Proficiency"));
-const Education = dynamic(() => import("../containers/Education"));
-const Projects = dynamic(() => import("../containers/Projects"));
-const GithubProfileCard = dynamic(() => import("../components/GithubProfileCard"));
+const Skills = dynamic(() => import("../containers/Skills"),{ ssr: false });
+const Proficiency = dynamic(() => import("../containers/Proficiency"),{ ssr: false });
+const Education = dynamic(() => import("../containers/Education"),{ ssr: false });
+const Projects = dynamic(() => import("../containers/Projects"),{ ssr: false });
+const GithubProfileCard = dynamic(() => import("../components/GithubProfileCard"),{ ssr: false });
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 import { GithubUserType } from "../types";
