@@ -1,7 +1,12 @@
-body > div:first-child {
-  background-color: #0000000 !important;
-  background-image:
-    linear-Gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg,rgba(255, 255, 255, 0.03) 1px, transparent 1px) !important;
-  background-size:50px 50px !important;
+html, body, #__next, .bg-gradient-primary, .bg-gradient-info {
+  background-color: #000000 !important;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px) !important;
+  background-size: 45px 45px !important;
+}
+
+/* Force text and headers to show up clearly over the new dark theme */
+h1, h2, h3, h4, p, span, .text-white {
+  color: #ffffff !important;
 }
